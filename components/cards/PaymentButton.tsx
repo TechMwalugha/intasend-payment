@@ -104,28 +104,11 @@ const PaymentButton = () => {
     }
   return (
     <AlertDialog>
-      <AlertDialogTrigger className="w-full">
+      <AlertDialogTrigger className="w-full mt-5 bg-green-600 p-1.5 rounded-md hover:bg-green-300 delay-200">
         <div className="flex items-center justify-center">
-        <div className="w-full md:w-1/2 mt-4 flex items-center justify-center flex-col shadow-md p-4 bg-blue-600 rounded-sm">
-        <Image 
-        src="/assets/payment-icon.png"
-        width={40}
-        height={40}
-        alt="payment icon"
-        />
-
-        <h3 className="text-[1.5em] mb-3">Complete Your Payment</h3>
-
-        <h5 className="mb-3">Click the button to proceed with your payment. You can choose from multiple secure payment methods:</h5>
-
-        <ul className="text-left list-disc">
-            <li>Pesa Link: Directly link your bank account for a secure transfer.</li>
-            <li>Credit or Debit Card: Pay with your Visa, Mastercard, or other major cards.</li>
-            <li>Apple Pay: A quick and convenient option for iOS users.</li>
-            <li>M-Pesa: Convenient mobile money transfer for seamless payments.</li>
-        </ul>
-        </div>
-        </div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M13 6a1 1 0 1 0-2 0v5H6a1 1 0 1 0 0 2h5v5a1 1 0 1 0 2 0v-5h5a1 1 0 1 0 0-2h-5z"/></svg>
+          Deposit
+        </div> 
       </AlertDialogTrigger>
         <AlertDialogContent>
             <AlertDialogHeader>

@@ -4,7 +4,7 @@ import DropDownMenu from "../cards/DropDownMenu"
 const TopBar = () => {
   return (
     <header
-    className="flex items-center justify-between p-2 shadow-sm"
+    className="flex items-center justify-between p-2 shadow-sm border-b "
     >
       <div>
         <Image
